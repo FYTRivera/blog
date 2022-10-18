@@ -15,3 +15,25 @@
  */
 
  @import "bulma";
+
+ .wrapper{
+    margin: 2em;
+    padding: 2em;
+ }
+
+ .overflow{
+    display: block;
+    overflow:auto;
+    width: 10vw;
+    height: 2em;
+ }
+
+ .body{
+    overflow-wrap: normal;
+ }
+
+ .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
